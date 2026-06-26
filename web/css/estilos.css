@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.header {
+    background: #10233f;
+    color: white;
+    padding: 32px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0 0 10px;
+}
+
+.header p {
+    margin: 6px 0;
+}
+
+.fuente {
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 24px;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #10233f;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.tarjeta {
+    background: #f8fafc;
+    border-left: 5px solid #10233f;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.tarjeta h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.valor-principal {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.detalle {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+.conclusiones p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #10233f;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+}
+
+.graficos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.grafico-card {
+    background: #f8fafc;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #e1e5ea;
+}
+
+.grafico-card h3 {
+    margin-top: 0;
+    color: #10233f;
+}
+
+.grafico-card canvas {
+    width: 100%;
+    max-height: 360px;
+}

@@ -1,0 +1,76 @@
+{
+    "periodo": {
+        "inicio": "2018-01",
+        "fin": "2026-05"
+    },
+    "metricas": {
+        "inflacion_12_meses": {
+            "nombre": "Inflación 12 meses",
+            "unidad": "%",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 1.25,
+            "fecha_fin": "2026-05",
+            "valor_final": 3.91,
+            "ultimo_valor": 3.91,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 8.81,
+            "fecha_maximo": "2022-06",
+            "minimo": 0.36,
+            "fecha_minimo": "2018-03",
+            "promedio": 3.4,
+            "variacion_absoluta": 2.65,
+            "variacion_porcentual": 211.61,
+            "mayor_subida": 1.59,
+            "fecha_mayor_subida": "2026-03",
+            "mayor_caida": -1.43,
+            "fecha_mayor_caida": "2023-06"
+        },
+        "tipo_cambio_promedio": {
+            "nombre": "Tipo de cambio promedio mensual",
+            "unidad": "S/ por US$",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 3.22,
+            "fecha_fin": "2026-05",
+            "valor_final": 3.43,
+            "ultimo_valor": 3.43,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 4.11,
+            "fecha_maximo": "2021-09",
+            "minimo": 3.22,
+            "fecha_minimo": "2018-01",
+            "promedio": 3.6,
+            "variacion_absoluta": 0.22,
+            "variacion_porcentual": 6.83,
+            "mayor_subida": 0.16,
+            "fecha_mayor_subida": "2022-07",
+            "mayor_caida": -0.15,
+            "fecha_mayor_caida": "2022-01"
+        },
+        "tasa_referencia": {
+            "nombre": "Tasa de referencia BCRP",
+            "unidad": "%",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 3.0,
+            "fecha_fin": "2026-05",
+            "valor_final": 4.25,
+            "ultimo_valor": 4.25,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 7.75,
+            "fecha_maximo": "2023-01",
+            "minimo": 0.25,
+            "fecha_minimo": "2020-04",
+            "promedio": 3.79,
+            "variacion_absoluta": 1.25,
+            "variacion_porcentual": 41.67,
+            "mayor_subida": 0.5,
+            "fecha_mayor_subida": "2021-09",
+            "mayor_caida": -1.0,
+            "fecha_mayor_caida": "2020-03"
+        }
+    },
+    "conclusiones": [
+        "Inflación 12 meses: entre 2018-01 y 2026-05, el valor pasó de 1.25 % a 3.91 %. El máximo del periodo fue 8.81 % en 2022-06, mientras que el mínimo fue 0.36 % en 2018-03.",
+        "Tipo de cambio promedio mensual: entre 2018-01 y 2026-05, el valor pasó de 3.22 S/ por US$ a 3.43 S/ por US$. El máximo del periodo fue 4.11 S/ por US$ en 2021-09, mientras que el mínimo fue 3.22 S/ por US$ en 2018-01.",
+        "Tasa de referencia BCRP: entre 2018-01 y 2026-05, el valor pasó de 3.0 % a 4.25 %. El máximo del periodo fue 7.75 % en 2023-01, mientras que el mínimo fue 0.25 % en 2020-04."
+    ]
+}

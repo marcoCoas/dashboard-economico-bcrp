@@ -1,0 +1,1922 @@
+{
+    "titulo": "Dashboard económico del Perú",
+    "fuente": "Banco Central de Reserva del Perú - BCRPData",
+    "descripcion": "Análisis de inflación, tipo de cambio promedio mensual y tasa de referencia del BCRP.",
+    "periodo": {
+        "inicio": "2018-01",
+        "fin": "2026-05"
+    },
+    "series": [
+        {
+            "id": "inflacion_12_meses",
+            "nombre": "Inflación 12 meses",
+            "unidad": "%",
+            "datos": [
+                {
+                    "fecha": "2018-01",
+                    "valor": 1.2532
+                },
+                {
+                    "fecha": "2018-02",
+                    "valor": 1.1796
+                },
+                {
+                    "fecha": "2018-03",
+                    "valor": 0.3631
+                },
+                {
+                    "fecha": "2018-04",
+                    "valor": 0.4849
+                },
+                {
+                    "fecha": "2018-05",
+                    "valor": 0.9307
+                },
+                {
+                    "fecha": "2018-06",
+                    "valor": 1.4293
+                },
+                {
+                    "fecha": "2018-07",
+                    "valor": 1.6161
+                },
+                {
+                    "fecha": "2018-08",
+                    "valor": 1.0706
+                },
+                {
+                    "fecha": "2018-09",
+                    "valor": 1.2803
+                },
+                {
+                    "fecha": "2018-10",
+                    "valor": 1.8409
+                },
+                {
+                    "fecha": "2018-11",
+                    "valor": 2.1671
+                },
+                {
+                    "fecha": "2018-12",
+                    "valor": 2.1925
+                },
+                {
+                    "fecha": "2019-01",
+                    "valor": 2.1292
+                },
+                {
+                    "fecha": "2019-02",
+                    "valor": 2.0034
+                },
+                {
+                    "fecha": "2019-03",
+                    "valor": 2.2474
+                },
+                {
+                    "fecha": "2019-04",
+                    "valor": 2.5926
+                },
+                {
+                    "fecha": "2019-05",
+                    "valor": 2.7251
+                },
+                {
+                    "fecha": "2019-06",
+                    "valor": 2.2948
+                },
+                {
+                    "fecha": "2019-07",
+                    "valor": 2.1119
+                },
+                {
+                    "fecha": "2019-08",
+                    "valor": 2.0397
+                },
+                {
+                    "fecha": "2019-09",
+                    "valor": 1.851
+                },
+                {
+                    "fecha": "2019-10",
+                    "valor": 1.8806
+                },
+                {
+                    "fecha": "2019-11",
+                    "valor": 1.8668
+                },
+                {
+                    "fecha": "2019-12",
+                    "valor": 1.9001
+                },
+                {
+                    "fecha": "2020-01",
+                    "valor": 1.8884
+                },
+                {
+                    "fecha": "2020-02",
+                    "valor": 1.904
+                },
+                {
+                    "fecha": "2020-03",
+                    "valor": 1.8215
+                },
+                {
+                    "fecha": "2020-04",
+                    "valor": 1.7245
+                },
+                {
+                    "fecha": "2020-05",
+                    "valor": 1.7819
+                },
+                {
+                    "fecha": "2020-06",
+                    "valor": 1.5987
+                },
+                {
+                    "fecha": "2020-07",
+                    "valor": 1.8617
+                },
+                {
+                    "fecha": "2020-08",
+                    "valor": 1.6874
+                },
+                {
+                    "fecha": "2020-09",
+                    "valor": 1.8196
+                },
+                {
+                    "fecha": "2020-10",
+                    "valor": 1.724
+                },
+                {
+                    "fecha": "2020-11",
+                    "valor": 2.1422
+                },
+                {
+                    "fecha": "2020-12",
+                    "valor": 1.9732
+                },
+                {
+                    "fecha": "2021-01",
+                    "valor": 2.6755
+                },
+                {
+                    "fecha": "2021-02",
+                    "valor": 2.4013
+                },
+                {
+                    "fecha": "2021-03",
+                    "valor": 2.5982
+                },
+                {
+                    "fecha": "2021-04",
+                    "valor": 2.3837
+                },
+                {
+                    "fecha": "2021-05",
+                    "valor": 2.4475
+                },
+                {
+                    "fecha": "2021-06",
+                    "valor": 3.2546
+                },
+                {
+                    "fecha": "2021-07",
+                    "valor": 3.8146
+                },
+                {
+                    "fecha": "2021-08",
+                    "valor": 4.9528
+                },
+                {
+                    "fecha": "2021-09",
+                    "valor": 5.2296
+                },
+                {
+                    "fecha": "2021-10",
+                    "valor": 5.826
+                },
+                {
+                    "fecha": "2021-11",
+                    "valor": 5.6551
+                },
+                {
+                    "fecha": "2021-12",
+                    "valor": 6.4304
+                },
+                {
+                    "fecha": "2022-01",
+                    "valor": 5.6849
+                },
+                {
+                    "fecha": "2022-02",
+                    "valor": 6.147
+                },
+                {
+                    "fecha": "2022-03",
+                    "valor": 6.8241
+                },
+                {
+                    "fecha": "2022-04",
+                    "valor": 7.9647
+                },
+                {
+                    "fecha": "2022-05",
+                    "valor": 8.0911
+                },
+                {
+                    "fecha": "2022-06",
+                    "valor": 8.8126
+                },
+                {
+                    "fecha": "2022-07",
+                    "valor": 8.7408
+                },
+                {
+                    "fecha": "2022-08",
+                    "valor": 8.398
+                },
+                {
+                    "fecha": "2022-09",
+                    "valor": 8.5299
+                },
+                {
+                    "fecha": "2022-10",
+                    "valor": 8.2752
+                },
+                {
+                    "fecha": "2022-11",
+                    "valor": 8.4472
+                },
+                {
+                    "fecha": "2022-12",
+                    "valor": 8.4592
+                },
+                {
+                    "fecha": "2023-01",
+                    "valor": 8.6643
+                },
+                {
+                    "fecha": "2023-02",
+                    "valor": 8.6459
+                },
+                {
+                    "fecha": "2023-03",
+                    "valor": 8.4006
+                },
+                {
+                    "fecha": "2023-04",
+                    "valor": 7.965
+                },
+                {
+                    "fecha": "2023-05",
+                    "valor": 7.8939
+                },
+                {
+                    "fecha": "2023-06",
+                    "valor": 6.4615
+                },
+                {
+                    "fecha": "2023-07",
+                    "valor": 5.8816
+                },
+                {
+                    "fecha": "2023-08",
+                    "valor": 5.5761
+                },
+                {
+                    "fecha": "2023-09",
+                    "valor": 5.0445
+                },
+                {
+                    "fecha": "2023-10",
+                    "valor": 4.3431
+                },
+                {
+                    "fecha": "2023-11",
+                    "valor": 3.6365
+                },
+                {
+                    "fecha": "2023-12",
+                    "valor": 3.2374
+                },
+                {
+                    "fecha": "2024-01",
+                    "valor": 3.0239
+                },
+                {
+                    "fecha": "2024-02",
+                    "valor": 3.2941
+                },
+                {
+                    "fecha": "2024-03",
+                    "valor": 3.045
+                },
+                {
+                    "fecha": "2024-04",
+                    "valor": 2.4221
+                },
+                {
+                    "fecha": "2024-05",
+                    "valor": 2.0049
+                },
+                {
+                    "fecha": "2024-06",
+                    "valor": 2.2854
+                },
+                {
+                    "fecha": "2024-07",
+                    "valor": 2.1277
+                },
+                {
+                    "fecha": "2024-08",
+                    "valor": 2.0341
+                },
+                {
+                    "fecha": "2024-09",
+                    "valor": 1.775
+                },
+                {
+                    "fecha": "2024-10",
+                    "valor": 2.0092
+                },
+                {
+                    "fecha": "2024-11",
+                    "valor": 2.272
+                },
+                {
+                    "fecha": "2024-12",
+                    "valor": 1.9663
+                },
+                {
+                    "fecha": "2025-01",
+                    "valor": 1.8516
+                },
+                {
+                    "fecha": "2025-02",
+                    "valor": 1.4773
+                },
+                {
+                    "fecha": "2025-03",
+                    "valor": 1.2772
+                },
+                {
+                    "fecha": "2025-04",
+                    "valor": 1.6518
+                },
+                {
+                    "fecha": "2025-05",
+                    "valor": 1.6867
+                },
+                {
+                    "fecha": "2025-06",
+                    "valor": 1.6937
+                },
+                {
+                    "fecha": "2025-07",
+                    "valor": 1.6888
+                },
+                {
+                    "fecha": "2025-08",
+                    "valor": 1.1063
+                },
+                {
+                    "fecha": "2025-09",
+                    "valor": 1.3584
+                },
+                {
+                    "fecha": "2025-10",
+                    "valor": 1.3518
+                },
+                {
+                    "fecha": "2025-11",
+                    "valor": 1.3686
+                },
+                {
+                    "fecha": "2025-12",
+                    "valor": 1.5088
+                },
+                {
+                    "fecha": "2026-01",
+                    "valor": 1.7009
+                },
+                {
+                    "fecha": "2026-02",
+                    "valor": 2.2142
+                },
+                {
+                    "fecha": "2026-03",
+                    "valor": 3.8045
+                },
+                {
+                    "fecha": "2026-04",
+                    "valor": 4.0141
+                },
+                {
+                    "fecha": "2026-05",
+                    "valor": 3.9051
+                }
+            ]
+        },
+        {
+            "id": "tipo_cambio_promedio",
+            "nombre": "Tipo de cambio promedio mensual",
+            "unidad": "S/ por US$",
+            "datos": [
+                {
+                    "fecha": "2018-01",
+                    "valor": 3.2152
+                },
+                {
+                    "fecha": "2018-02",
+                    "valor": 3.2484
+                },
+                {
+                    "fecha": "2018-03",
+                    "valor": 3.2519
+                },
+                {
+                    "fecha": "2018-04",
+                    "valor": 3.2306
+                },
+                {
+                    "fecha": "2018-05",
+                    "valor": 3.2736
+                },
+                {
+                    "fecha": "2018-06",
+                    "valor": 3.271
+                },
+                {
+                    "fecha": "2018-07",
+                    "valor": 3.2766
+                },
+                {
+                    "fecha": "2018-08",
+                    "valor": 3.2881
+                },
+                {
+                    "fecha": "2018-09",
+                    "valor": 3.3113
+                },
+                {
+                    "fecha": "2018-10",
+                    "valor": 3.3339
+                },
+                {
+                    "fecha": "2018-11",
+                    "valor": 3.3747
+                },
+                {
+                    "fecha": "2018-12",
+                    "valor": 3.364
+                },
+                {
+                    "fecha": "2019-01",
+                    "valor": 3.3439
+                },
+                {
+                    "fecha": "2019-02",
+                    "valor": 3.3215
+                },
+                {
+                    "fecha": "2019-03",
+                    "valor": 3.3047
+                },
+                {
+                    "fecha": "2019-04",
+                    "valor": 3.3038
+                },
+                {
+                    "fecha": "2019-05",
+                    "valor": 3.3324
+                },
+                {
+                    "fecha": "2019-06",
+                    "valor": 3.3256
+                },
+                {
+                    "fecha": "2019-07",
+                    "valor": 3.2902
+                },
+                {
+                    "fecha": "2019-08",
+                    "valor": 3.3776
+                },
+                {
+                    "fecha": "2019-09",
+                    "valor": 3.3574
+                },
+                {
+                    "fecha": "2019-10",
+                    "valor": 3.3598
+                },
+                {
+                    "fecha": "2019-11",
+                    "valor": 3.3717
+                },
+                {
+                    "fecha": "2019-12",
+                    "valor": 3.3552
+                },
+                {
+                    "fecha": "2020-01",
+                    "valor": 3.3274
+                },
+                {
+                    "fecha": "2020-02",
+                    "valor": 3.3904
+                },
+                {
+                    "fecha": "2020-03",
+                    "valor": 3.4914
+                },
+                {
+                    "fecha": "2020-04",
+                    "valor": 3.3975
+                },
+                {
+                    "fecha": "2020-05",
+                    "valor": 3.4211
+                },
+                {
+                    "fecha": "2020-06",
+                    "valor": 3.4702
+                },
+                {
+                    "fecha": "2020-07",
+                    "valor": 3.5166
+                },
+                {
+                    "fecha": "2020-08",
+                    "valor": 3.5639
+                },
+                {
+                    "fecha": "2020-09",
+                    "valor": 3.5549
+                },
+                {
+                    "fecha": "2020-10",
+                    "valor": 3.5956
+                },
+                {
+                    "fecha": "2020-11",
+                    "valor": 3.6078
+                },
+                {
+                    "fecha": "2020-12",
+                    "valor": 3.6026
+                },
+                {
+                    "fecha": "2021-01",
+                    "valor": 3.6246
+                },
+                {
+                    "fecha": "2021-02",
+                    "valor": 3.6453
+                },
+                {
+                    "fecha": "2021-03",
+                    "valor": 3.7082
+                },
+                {
+                    "fecha": "2021-04",
+                    "valor": 3.6995
+                },
+                {
+                    "fecha": "2021-05",
+                    "valor": 3.7735
+                },
+                {
+                    "fecha": "2021-06",
+                    "valor": 3.9103
+                },
+                {
+                    "fecha": "2021-07",
+                    "valor": 3.94
+                },
+                {
+                    "fecha": "2021-08",
+                    "valor": 4.0862
+                },
+                {
+                    "fecha": "2021-09",
+                    "valor": 4.1075
+                },
+                {
+                    "fecha": "2021-10",
+                    "valor": 4.015
+                },
+                {
+                    "fecha": "2021-11",
+                    "valor": 4.0196
+                },
+                {
+                    "fecha": "2021-12",
+                    "valor": 4.037
+                },
+                {
+                    "fecha": "2022-01",
+                    "valor": 3.8893
+                },
+                {
+                    "fecha": "2022-02",
+                    "valor": 3.7908
+                },
+                {
+                    "fecha": "2022-03",
+                    "valor": 3.7388
+                },
+                {
+                    "fecha": "2022-04",
+                    "valor": 3.7397
+                },
+                {
+                    "fecha": "2022-05",
+                    "valor": 3.7575
+                },
+                {
+                    "fecha": "2022-06",
+                    "valor": 3.7471
+                },
+                {
+                    "fecha": "2022-07",
+                    "valor": 3.9022
+                },
+                {
+                    "fecha": "2022-08",
+                    "valor": 3.8738
+                },
+                {
+                    "fecha": "2022-09",
+                    "valor": 3.8977
+                },
+                {
+                    "fecha": "2022-10",
+                    "valor": 3.9787
+                },
+                {
+                    "fecha": "2022-11",
+                    "valor": 3.8773
+                },
+                {
+                    "fecha": "2022-12",
+                    "valor": 3.8292
+                },
+                {
+                    "fecha": "2023-01",
+                    "valor": 3.8328
+                },
+                {
+                    "fecha": "2023-02",
+                    "valor": 3.8409
+                },
+                {
+                    "fecha": "2023-03",
+                    "valor": 3.7796
+                },
+                {
+                    "fecha": "2023-04",
+                    "valor": 3.7656
+                },
+                {
+                    "fecha": "2023-05",
+                    "valor": 3.6887
+                },
+                {
+                    "fecha": "2023-06",
+                    "valor": 3.651
+                },
+                {
+                    "fecha": "2023-07",
+                    "valor": 3.6013
+                },
+                {
+                    "fecha": "2023-08",
+                    "valor": 3.6963
+                },
+                {
+                    "fecha": "2023-09",
+                    "valor": 3.7297
+                },
+                {
+                    "fecha": "2023-10",
+                    "valor": 3.8444
+                },
+                {
+                    "fecha": "2023-11",
+                    "valor": 3.7619
+                },
+                {
+                    "fecha": "2023-12",
+                    "valor": 3.7337
+                },
+                {
+                    "fecha": "2024-01",
+                    "valor": 3.7398
+                },
+                {
+                    "fecha": "2024-02",
+                    "valor": 3.8273
+                },
+                {
+                    "fecha": "2024-03",
+                    "valor": 3.7096
+                },
+                {
+                    "fecha": "2024-04",
+                    "valor": 3.7132
+                },
+                {
+                    "fecha": "2024-05",
+                    "valor": 3.731
+                },
+                {
+                    "fecha": "2024-06",
+                    "valor": 3.7846
+                },
+                {
+                    "fecha": "2024-07",
+                    "valor": 3.7644
+                },
+                {
+                    "fecha": "2024-08",
+                    "valor": 3.7413
+                },
+                {
+                    "fecha": "2024-09",
+                    "valor": 3.7682
+                },
+                {
+                    "fecha": "2024-10",
+                    "valor": 3.7536
+                },
+                {
+                    "fecha": "2024-11",
+                    "valor": 3.7788
+                },
+                {
+                    "fecha": "2024-12",
+                    "valor": 3.7349
+                },
+                {
+                    "fecha": "2025-01",
+                    "valor": 3.7477
+                },
+                {
+                    "fecha": "2025-02",
+                    "valor": 3.6977
+                },
+                {
+                    "fecha": "2025-03",
+                    "valor": 3.6526
+                },
+                {
+                    "fecha": "2025-04",
+                    "valor": 3.6997
+                },
+                {
+                    "fecha": "2025-05",
+                    "valor": 3.6601
+                },
+                {
+                    "fecha": "2025-06",
+                    "valor": 3.6039
+                },
+                {
+                    "fecha": "2025-07",
+                    "valor": 3.5562
+                },
+                {
+                    "fecha": "2025-08",
+                    "valor": 3.5432
+                },
+                {
+                    "fecha": "2025-09",
+                    "valor": 3.5028
+                },
+                {
+                    "fecha": "2025-10",
+                    "valor": 3.4141
+                },
+                {
+                    "fecha": "2025-11",
+                    "valor": 3.3729
+                },
+                {
+                    "fecha": "2025-12",
+                    "valor": 3.3667
+                },
+                {
+                    "fecha": "2026-01",
+                    "valor": 3.3567
+                },
+                {
+                    "fecha": "2026-02",
+                    "valor": 3.357
+                },
+                {
+                    "fecha": "2026-03",
+                    "valor": 3.4468
+                },
+                {
+                    "fecha": "2026-04",
+                    "valor": 3.4427
+                },
+                {
+                    "fecha": "2026-05",
+                    "valor": 3.4348
+                }
+            ]
+        },
+        {
+            "id": "tasa_referencia",
+            "nombre": "Tasa de referencia BCRP",
+            "unidad": "%",
+            "datos": [
+                {
+                    "fecha": "2018-01",
+                    "valor": 3.0
+                },
+                {
+                    "fecha": "2018-02",
+                    "valor": 3.0
+                },
+                {
+                    "fecha": "2018-03",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-04",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-05",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-06",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-07",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-08",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-09",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-10",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-11",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2018-12",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-01",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-02",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-03",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-04",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-05",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-06",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-07",
+                    "valor": 2.75
+                },
+                {
+                    "fecha": "2019-08",
+                    "valor": 2.5
+                },
+                {
+                    "fecha": "2019-09",
+                    "valor": 2.5
+                },
+                {
+                    "fecha": "2019-10",
+                    "valor": 2.5
+                },
+                {
+                    "fecha": "2019-11",
+                    "valor": 2.25
+                },
+                {
+                    "fecha": "2019-12",
+                    "valor": 2.25
+                },
+                {
+                    "fecha": "2020-01",
+                    "valor": 2.25
+                },
+                {
+                    "fecha": "2020-02",
+                    "valor": 2.25
+                },
+                {
+                    "fecha": "2020-03",
+                    "valor": 1.25
+                },
+                {
+                    "fecha": "2020-04",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-05",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-06",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-07",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-08",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-09",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-10",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-11",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2020-12",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-01",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-02",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-03",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-04",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-05",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-06",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-07",
+                    "valor": 0.25
+                },
+                {
+                    "fecha": "2021-08",
+                    "valor": 0.5
+                },
+                {
+                    "fecha": "2021-09",
+                    "valor": 1.0
+                },
+                {
+                    "fecha": "2021-10",
+                    "valor": 1.5
+                },
+                {
+                    "fecha": "2021-11",
+                    "valor": 2.0
+                },
+                {
+                    "fecha": "2021-12",
+                    "valor": 2.5
+                },
+                {
+                    "fecha": "2022-01",
+                    "valor": 3.0
+                },
+                {
+                    "fecha": "2022-02",
+                    "valor": 3.5
+                },
+                {
+                    "fecha": "2022-03",
+                    "valor": 4.0
+                },
+                {
+                    "fecha": "2022-04",
+                    "valor": 4.5
+                },
+                {
+                    "fecha": "2022-05",
+                    "valor": 5.0
+                },
+                {
+                    "fecha": "2022-06",
+                    "valor": 5.5
+                },
+                {
+                    "fecha": "2022-07",
+                    "valor": 6.0
+                },
+                {
+                    "fecha": "2022-08",
+                    "valor": 6.5
+                },
+                {
+                    "fecha": "2022-09",
+                    "valor": 6.75
+                },
+                {
+                    "fecha": "2022-10",
+                    "valor": 7.0
+                },
+                {
+                    "fecha": "2022-11",
+                    "valor": 7.25
+                },
+                {
+                    "fecha": "2022-12",
+                    "valor": 7.5
+                },
+                {
+                    "fecha": "2023-01",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-02",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-03",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-04",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-05",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-06",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-07",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-08",
+                    "valor": 7.75
+                },
+                {
+                    "fecha": "2023-09",
+                    "valor": 7.5
+                },
+                {
+                    "fecha": "2023-10",
+                    "valor": 7.25
+                },
+                {
+                    "fecha": "2023-11",
+                    "valor": 7.0
+                },
+                {
+                    "fecha": "2023-12",
+                    "valor": 6.75
+                },
+                {
+                    "fecha": "2024-01",
+                    "valor": 6.5
+                },
+                {
+                    "fecha": "2024-02",
+                    "valor": 6.25
+                },
+                {
+                    "fecha": "2024-03",
+                    "valor": 6.25
+                },
+                {
+                    "fecha": "2024-04",
+                    "valor": 6.0
+                },
+                {
+                    "fecha": "2024-05",
+                    "valor": 5.75
+                },
+                {
+                    "fecha": "2024-06",
+                    "valor": 5.75
+                },
+                {
+                    "fecha": "2024-07",
+                    "valor": 5.75
+                },
+                {
+                    "fecha": "2024-08",
+                    "valor": 5.5
+                },
+                {
+                    "fecha": "2024-09",
+                    "valor": 5.25
+                },
+                {
+                    "fecha": "2024-10",
+                    "valor": 5.25
+                },
+                {
+                    "fecha": "2024-11",
+                    "valor": 5.0
+                },
+                {
+                    "fecha": "2024-12",
+                    "valor": 5.0
+                },
+                {
+                    "fecha": "2025-01",
+                    "valor": 4.75
+                },
+                {
+                    "fecha": "2025-02",
+                    "valor": 4.75
+                },
+                {
+                    "fecha": "2025-03",
+                    "valor": 4.75
+                },
+                {
+                    "fecha": "2025-04",
+                    "valor": 4.75
+                },
+                {
+                    "fecha": "2025-05",
+                    "valor": 4.5
+                },
+                {
+                    "fecha": "2025-06",
+                    "valor": 4.5
+                },
+                {
+                    "fecha": "2025-07",
+                    "valor": 4.5
+                },
+                {
+                    "fecha": "2025-08",
+                    "valor": 4.5
+                },
+                {
+                    "fecha": "2025-09",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2025-10",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2025-11",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2025-12",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2026-01",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2026-02",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2026-03",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2026-04",
+                    "valor": 4.25
+                },
+                {
+                    "fecha": "2026-05",
+                    "valor": 4.25
+                }
+            ]
+        }
+    ],
+    "metricas": {
+        "inflacion_12_meses": {
+            "nombre": "Inflación 12 meses",
+            "unidad": "%",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 1.25,
+            "fecha_fin": "2026-05",
+            "valor_final": 3.91,
+            "ultimo_valor": 3.91,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 8.81,
+            "fecha_maximo": "2022-06",
+            "minimo": 0.36,
+            "fecha_minimo": "2018-03",
+            "promedio": 3.4,
+            "variacion_absoluta": 2.65,
+            "variacion_porcentual": 211.61,
+            "mayor_subida": 1.59,
+            "fecha_mayor_subida": "2026-03",
+            "mayor_caida": -1.43,
+            "fecha_mayor_caida": "2023-06"
+        },
+        "tipo_cambio_promedio": {
+            "nombre": "Tipo de cambio promedio mensual",
+            "unidad": "S/ por US$",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 3.22,
+            "fecha_fin": "2026-05",
+            "valor_final": 3.43,
+            "ultimo_valor": 3.43,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 4.11,
+            "fecha_maximo": "2021-09",
+            "minimo": 3.22,
+            "fecha_minimo": "2018-01",
+            "promedio": 3.6,
+            "variacion_absoluta": 0.22,
+            "variacion_porcentual": 6.83,
+            "mayor_subida": 0.16,
+            "fecha_mayor_subida": "2022-07",
+            "mayor_caida": -0.15,
+            "fecha_mayor_caida": "2022-01"
+        },
+        "tasa_referencia": {
+            "nombre": "Tasa de referencia BCRP",
+            "unidad": "%",
+            "fecha_inicio": "2018-01",
+            "valor_inicio": 3.0,
+            "fecha_fin": "2026-05",
+            "valor_final": 4.25,
+            "ultimo_valor": 4.25,
+            "fecha_ultimo_valor": "2026-05",
+            "maximo": 7.75,
+            "fecha_maximo": "2023-01",
+            "minimo": 0.25,
+            "fecha_minimo": "2020-04",
+            "promedio": 3.79,
+            "variacion_absoluta": 1.25,
+            "variacion_porcentual": 41.67,
+            "mayor_subida": 0.5,
+            "fecha_mayor_subida": "2021-09",
+            "mayor_caida": -1.0,
+            "fecha_mayor_caida": "2020-03"
+        }
+    },
+    "conclusiones": [
+        "Inflación 12 meses: entre 2018-01 y 2026-05, el valor pasó de 1.25 % a 3.91 %. El máximo del periodo fue 8.81 % en 2022-06, mientras que el mínimo fue 0.36 % en 2018-03.",
+        "Tipo de cambio promedio mensual: entre 2018-01 y 2026-05, el valor pasó de 3.22 S/ por US$ a 3.43 S/ por US$. El máximo del periodo fue 4.11 S/ por US$ en 2021-09, mientras que el mínimo fue 3.22 S/ por US$ en 2018-01.",
+        "Tasa de referencia BCRP: entre 2018-01 y 2026-05, el valor pasó de 3.0 % a 4.25 %. El máximo del periodo fue 7.75 % en 2023-01, mientras que el mínimo fue 0.25 % en 2020-04."
+    ],
+    "tabla": [
+        {
+            "fecha": "2018-01",
+            "inflacion_12_meses": 1.2532,
+            "tipo_cambio_promedio": 3.2152,
+            "tasa_referencia": 3.0
+        },
+        {
+            "fecha": "2018-02",
+            "inflacion_12_meses": 1.1796,
+            "tipo_cambio_promedio": 3.2484,
+            "tasa_referencia": 3.0
+        },
+        {
+            "fecha": "2018-03",
+            "inflacion_12_meses": 0.3631,
+            "tipo_cambio_promedio": 3.2519,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-04",
+            "inflacion_12_meses": 0.4849,
+            "tipo_cambio_promedio": 3.2306,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-05",
+            "inflacion_12_meses": 0.9307,
+            "tipo_cambio_promedio": 3.2736,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-06",
+            "inflacion_12_meses": 1.4293,
+            "tipo_cambio_promedio": 3.271,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-07",
+            "inflacion_12_meses": 1.6161,
+            "tipo_cambio_promedio": 3.2766,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-08",
+            "inflacion_12_meses": 1.0706,
+            "tipo_cambio_promedio": 3.2881,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-09",
+            "inflacion_12_meses": 1.2803,
+            "tipo_cambio_promedio": 3.3113,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-10",
+            "inflacion_12_meses": 1.8409,
+            "tipo_cambio_promedio": 3.3339,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-11",
+            "inflacion_12_meses": 2.1671,
+            "tipo_cambio_promedio": 3.3747,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2018-12",
+            "inflacion_12_meses": 2.1925,
+            "tipo_cambio_promedio": 3.364,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-01",
+            "inflacion_12_meses": 2.1292,
+            "tipo_cambio_promedio": 3.3439,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-02",
+            "inflacion_12_meses": 2.0034,
+            "tipo_cambio_promedio": 3.3215,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-03",
+            "inflacion_12_meses": 2.2474,
+            "tipo_cambio_promedio": 3.3047,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-04",
+            "inflacion_12_meses": 2.5926,
+            "tipo_cambio_promedio": 3.3038,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-05",
+            "inflacion_12_meses": 2.7251,
+            "tipo_cambio_promedio": 3.3324,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-06",
+            "inflacion_12_meses": 2.2948,
+            "tipo_cambio_promedio": 3.3256,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-07",
+            "inflacion_12_meses": 2.1119,
+            "tipo_cambio_promedio": 3.2902,
+            "tasa_referencia": 2.75
+        },
+        {
+            "fecha": "2019-08",
+            "inflacion_12_meses": 2.0397,
+            "tipo_cambio_promedio": 3.3776,
+            "tasa_referencia": 2.5
+        },
+        {
+            "fecha": "2019-09",
+            "inflacion_12_meses": 1.851,
+            "tipo_cambio_promedio": 3.3574,
+            "tasa_referencia": 2.5
+        },
+        {
+            "fecha": "2019-10",
+            "inflacion_12_meses": 1.8806,
+            "tipo_cambio_promedio": 3.3598,
+            "tasa_referencia": 2.5
+        },
+        {
+            "fecha": "2019-11",
+            "inflacion_12_meses": 1.8668,
+            "tipo_cambio_promedio": 3.3717,
+            "tasa_referencia": 2.25
+        },
+        {
+            "fecha": "2019-12",
+            "inflacion_12_meses": 1.9001,
+            "tipo_cambio_promedio": 3.3552,
+            "tasa_referencia": 2.25
+        },
+        {
+            "fecha": "2020-01",
+            "inflacion_12_meses": 1.8884,
+            "tipo_cambio_promedio": 3.3274,
+            "tasa_referencia": 2.25
+        },
+        {
+            "fecha": "2020-02",
+            "inflacion_12_meses": 1.904,
+            "tipo_cambio_promedio": 3.3904,
+            "tasa_referencia": 2.25
+        },
+        {
+            "fecha": "2020-03",
+            "inflacion_12_meses": 1.8215,
+            "tipo_cambio_promedio": 3.4914,
+            "tasa_referencia": 1.25
+        },
+        {
+            "fecha": "2020-04",
+            "inflacion_12_meses": 1.7245,
+            "tipo_cambio_promedio": 3.3975,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-05",
+            "inflacion_12_meses": 1.7819,
+            "tipo_cambio_promedio": 3.4211,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-06",
+            "inflacion_12_meses": 1.5987,
+            "tipo_cambio_promedio": 3.4702,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-07",
+            "inflacion_12_meses": 1.8617,
+            "tipo_cambio_promedio": 3.5166,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-08",
+            "inflacion_12_meses": 1.6874,
+            "tipo_cambio_promedio": 3.5639,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-09",
+            "inflacion_12_meses": 1.8196,
+            "tipo_cambio_promedio": 3.5549,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-10",
+            "inflacion_12_meses": 1.724,
+            "tipo_cambio_promedio": 3.5956,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-11",
+            "inflacion_12_meses": 2.1422,
+            "tipo_cambio_promedio": 3.6078,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2020-12",
+            "inflacion_12_meses": 1.9732,
+            "tipo_cambio_promedio": 3.6026,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-01",
+            "inflacion_12_meses": 2.6755,
+            "tipo_cambio_promedio": 3.6246,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-02",
+            "inflacion_12_meses": 2.4013,
+            "tipo_cambio_promedio": 3.6453,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-03",
+            "inflacion_12_meses": 2.5982,
+            "tipo_cambio_promedio": 3.7082,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-04",
+            "inflacion_12_meses": 2.3837,
+            "tipo_cambio_promedio": 3.6995,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-05",
+            "inflacion_12_meses": 2.4475,
+            "tipo_cambio_promedio": 3.7735,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-06",
+            "inflacion_12_meses": 3.2546,
+            "tipo_cambio_promedio": 3.9103,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-07",
+            "inflacion_12_meses": 3.8146,
+            "tipo_cambio_promedio": 3.94,
+            "tasa_referencia": 0.25
+        },
+        {
+            "fecha": "2021-08",
+            "inflacion_12_meses": 4.9528,
+            "tipo_cambio_promedio": 4.0862,
+            "tasa_referencia": 0.5
+        },
+        {
+            "fecha": "2021-09",
+            "inflacion_12_meses": 5.2296,
+            "tipo_cambio_promedio": 4.1075,
+            "tasa_referencia": 1.0
+        },
+        {
+            "fecha": "2021-10",
+            "inflacion_12_meses": 5.826,
+            "tipo_cambio_promedio": 4.015,
+            "tasa_referencia": 1.5
+        },
+        {
+            "fecha": "2021-11",
+            "inflacion_12_meses": 5.6551,
+            "tipo_cambio_promedio": 4.0196,
+            "tasa_referencia": 2.0
+        },
+        {
+            "fecha": "2021-12",
+            "inflacion_12_meses": 6.4304,
+            "tipo_cambio_promedio": 4.037,
+            "tasa_referencia": 2.5
+        },
+        {
+            "fecha": "2022-01",
+            "inflacion_12_meses": 5.6849,
+            "tipo_cambio_promedio": 3.8893,
+            "tasa_referencia": 3.0
+        },
+        {
+            "fecha": "2022-02",
+            "inflacion_12_meses": 6.147,
+            "tipo_cambio_promedio": 3.7908,
+            "tasa_referencia": 3.5
+        },
+        {
+            "fecha": "2022-03",
+            "inflacion_12_meses": 6.8241,
+            "tipo_cambio_promedio": 3.7388,
+            "tasa_referencia": 4.0
+        },
+        {
+            "fecha": "2022-04",
+            "inflacion_12_meses": 7.9647,
+            "tipo_cambio_promedio": 3.7397,
+            "tasa_referencia": 4.5
+        },
+        {
+            "fecha": "2022-05",
+            "inflacion_12_meses": 8.0911,
+            "tipo_cambio_promedio": 3.7575,
+            "tasa_referencia": 5.0
+        },
+        {
+            "fecha": "2022-06",
+            "inflacion_12_meses": 8.8126,
+            "tipo_cambio_promedio": 3.7471,
+            "tasa_referencia": 5.5
+        },
+        {
+            "fecha": "2022-07",
+            "inflacion_12_meses": 8.7408,
+            "tipo_cambio_promedio": 3.9022,
+            "tasa_referencia": 6.0
+        },
+        {
+            "fecha": "2022-08",
+            "inflacion_12_meses": 8.398,
+            "tipo_cambio_promedio": 3.8738,
+            "tasa_referencia": 6.5
+        },
+        {
+            "fecha": "2022-09",
+            "inflacion_12_meses": 8.5299,
+            "tipo_cambio_promedio": 3.8977,
+            "tasa_referencia": 6.75
+        },
+        {
+            "fecha": "2022-10",
+            "inflacion_12_meses": 8.2752,
+            "tipo_cambio_promedio": 3.9787,
+            "tasa_referencia": 7.0
+        },
+        {
+            "fecha": "2022-11",
+            "inflacion_12_meses": 8.4472,
+            "tipo_cambio_promedio": 3.8773,
+            "tasa_referencia": 7.25
+        },
+        {
+            "fecha": "2022-12",
+            "inflacion_12_meses": 8.4592,
+            "tipo_cambio_promedio": 3.8292,
+            "tasa_referencia": 7.5
+        },
+        {
+            "fecha": "2023-01",
+            "inflacion_12_meses": 8.6643,
+            "tipo_cambio_promedio": 3.8328,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-02",
+            "inflacion_12_meses": 8.6459,
+            "tipo_cambio_promedio": 3.8409,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-03",
+            "inflacion_12_meses": 8.4006,
+            "tipo_cambio_promedio": 3.7796,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-04",
+            "inflacion_12_meses": 7.965,
+            "tipo_cambio_promedio": 3.7656,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-05",
+            "inflacion_12_meses": 7.8939,
+            "tipo_cambio_promedio": 3.6887,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-06",
+            "inflacion_12_meses": 6.4615,
+            "tipo_cambio_promedio": 3.651,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-07",
+            "inflacion_12_meses": 5.8816,
+            "tipo_cambio_promedio": 3.6013,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-08",
+            "inflacion_12_meses": 5.5761,
+            "tipo_cambio_promedio": 3.6963,
+            "tasa_referencia": 7.75
+        },
+        {
+            "fecha": "2023-09",
+            "inflacion_12_meses": 5.0445,
+            "tipo_cambio_promedio": 3.7297,
+            "tasa_referencia": 7.5
+        },
+        {
+            "fecha": "2023-10",
+            "inflacion_12_meses": 4.3431,
+            "tipo_cambio_promedio": 3.8444,
+            "tasa_referencia": 7.25
+        },
+        {
+            "fecha": "2023-11",
+            "inflacion_12_meses": 3.6365,
+            "tipo_cambio_promedio": 3.7619,
+            "tasa_referencia": 7.0
+        },
+        {
+            "fecha": "2023-12",
+            "inflacion_12_meses": 3.2374,
+            "tipo_cambio_promedio": 3.7337,
+            "tasa_referencia": 6.75
+        },
+        {
+            "fecha": "2024-01",
+            "inflacion_12_meses": 3.0239,
+            "tipo_cambio_promedio": 3.7398,
+            "tasa_referencia": 6.5
+        },
+        {
+            "fecha": "2024-02",
+            "inflacion_12_meses": 3.2941,
+            "tipo_cambio_promedio": 3.8273,
+            "tasa_referencia": 6.25
+        },
+        {
+            "fecha": "2024-03",
+            "inflacion_12_meses": 3.045,
+            "tipo_cambio_promedio": 3.7096,
+            "tasa_referencia": 6.25
+        },
+        {
+            "fecha": "2024-04",
+            "inflacion_12_meses": 2.4221,
+            "tipo_cambio_promedio": 3.7132,
+            "tasa_referencia": 6.0
+        },
+        {
+            "fecha": "2024-05",
+            "inflacion_12_meses": 2.0049,
+            "tipo_cambio_promedio": 3.731,
+            "tasa_referencia": 5.75
+        },
+        {
+            "fecha": "2024-06",
+            "inflacion_12_meses": 2.2854,
+            "tipo_cambio_promedio": 3.7846,
+            "tasa_referencia": 5.75
+        },
+        {
+            "fecha": "2024-07",
+            "inflacion_12_meses": 2.1277,
+            "tipo_cambio_promedio": 3.7644,
+            "tasa_referencia": 5.75
+        },
+        {
+            "fecha": "2024-08",
+            "inflacion_12_meses": 2.0341,
+            "tipo_cambio_promedio": 3.7413,
+            "tasa_referencia": 5.5
+        },
+        {
+            "fecha": "2024-09",
+            "inflacion_12_meses": 1.775,
+            "tipo_cambio_promedio": 3.7682,
+            "tasa_referencia": 5.25
+        },
+        {
+            "fecha": "2024-10",
+            "inflacion_12_meses": 2.0092,
+            "tipo_cambio_promedio": 3.7536,
+            "tasa_referencia": 5.25
+        },
+        {
+            "fecha": "2024-11",
+            "inflacion_12_meses": 2.272,
+            "tipo_cambio_promedio": 3.7788,
+            "tasa_referencia": 5.0
+        },
+        {
+            "fecha": "2024-12",
+            "inflacion_12_meses": 1.9663,
+            "tipo_cambio_promedio": 3.7349,
+            "tasa_referencia": 5.0
+        },
+        {
+            "fecha": "2025-01",
+            "inflacion_12_meses": 1.8516,
+            "tipo_cambio_promedio": 3.7477,
+            "tasa_referencia": 4.75
+        },
+        {
+            "fecha": "2025-02",
+            "inflacion_12_meses": 1.4773,
+            "tipo_cambio_promedio": 3.6977,
+            "tasa_referencia": 4.75
+        },
+        {
+            "fecha": "2025-03",
+            "inflacion_12_meses": 1.2772,
+            "tipo_cambio_promedio": 3.6526,
+            "tasa_referencia": 4.75
+        },
+        {
+            "fecha": "2025-04",
+            "inflacion_12_meses": 1.6518,
+            "tipo_cambio_promedio": 3.6997,
+            "tasa_referencia": 4.75
+        },
+        {
+            "fecha": "2025-05",
+            "inflacion_12_meses": 1.6867,
+            "tipo_cambio_promedio": 3.6601,
+            "tasa_referencia": 4.5
+        },
+        {
+            "fecha": "2025-06",
+            "inflacion_12_meses": 1.6937,
+            "tipo_cambio_promedio": 3.6039,
+            "tasa_referencia": 4.5
+        },
+        {
+            "fecha": "2025-07",
+            "inflacion_12_meses": 1.6888,
+            "tipo_cambio_promedio": 3.5562,
+            "tasa_referencia": 4.5
+        },
+        {
+            "fecha": "2025-08",
+            "inflacion_12_meses": 1.1063,
+            "tipo_cambio_promedio": 3.5432,
+            "tasa_referencia": 4.5
+        },
+        {
+            "fecha": "2025-09",
+            "inflacion_12_meses": 1.3584,
+            "tipo_cambio_promedio": 3.5028,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2025-10",
+            "inflacion_12_meses": 1.3518,
+            "tipo_cambio_promedio": 3.4141,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2025-11",
+            "inflacion_12_meses": 1.3686,
+            "tipo_cambio_promedio": 3.3729,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2025-12",
+            "inflacion_12_meses": 1.5088,
+            "tipo_cambio_promedio": 3.3667,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2026-01",
+            "inflacion_12_meses": 1.7009,
+            "tipo_cambio_promedio": 3.3567,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2026-02",
+            "inflacion_12_meses": 2.2142,
+            "tipo_cambio_promedio": 3.357,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2026-03",
+            "inflacion_12_meses": 3.8045,
+            "tipo_cambio_promedio": 3.4468,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2026-04",
+            "inflacion_12_meses": 4.0141,
+            "tipo_cambio_promedio": 3.4427,
+            "tasa_referencia": 4.25
+        },
+        {
+            "fecha": "2026-05",
+            "inflacion_12_meses": 3.9051,
+            "tipo_cambio_promedio": 3.4348,
+            "tasa_referencia": 4.25
+        }
+    ]
+}
