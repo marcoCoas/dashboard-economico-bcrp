@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard económico del Perú - BCRP</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 id="titulo">Dashboard económico del Perú</h1>
+        <p id="descripcion">Cargando información...</p>
+        <p class="fuente" id="fuente"></p>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="periodo">
+            <h2>Periodo analizado</h2>
+            <p id="periodo"></p>
+        </section>
+
+        <section>
+            <h2>Indicadores principales</h2>
+            <div class="tarjetas" id="tarjetas"></div>
+        </section>
+
+	<section>
+    <h2>Gráficos de evolución</h2>
+
+    <div class="graficos">
+        <div class="grafico-card">
+            <h3>Inflación 12 meses</h3>
+            <canvas id="graficoInflacion"></canvas>
+        </div>
+
+        <div class="grafico-card">
+            <h3>Tipo de cambio promedio mensual</h3>
+            <canvas id="graficoTipoCambio"></canvas>
+        </div>
+
+        <div class="grafico-card">
+            <h3>Tasa de referencia BCRP</h3>
+            <canvas id="graficoTasaReferencia"></canvas>
+        </div>
+    </div>
+	</section>
+
+        <section>
+            <h2>Conclusiones del análisis</h2>
+            <div id="conclusiones" class="conclusiones"></div>
+        </section>
+
+        <section>
+            <h2>Últimos datos disponibles</h2>
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Inflación 12 meses</th>
+                            <th>Tipo de cambio</th>
+                            <th>Tasa de referencia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-datos"></tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="js/dashboard.js"></script>
+</body>
+</html>
