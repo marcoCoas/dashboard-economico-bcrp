@@ -224,9 +224,7 @@ El dashboard muestra:
 
 
 
-Este proyecto realiza un análisis descriptivo.
-
-Las conclusiones muestran tendencias y variaciones, pero no prueban causalidad entre variables económicas.
+Este proyecto realiza un análisis descriptivo. Las conclusiones muestran tendencias y variaciones, pero no prueban causalidad entre variables económicas.
 
 
 
