@@ -132,7 +132,84 @@ function mostrarGraficos(data) {
     crearGraficoLinea("graficoTasaReferencia", serieTasaReferencia, "%");
 }
 
+function crearGraficoComparativo(data) {
+    const serieInflacion = obtenerSerie(data, "inflacion_12_meses");
+    const serieTasaReferencia = obtenerSerie(data, "tasa_referencia");
 
+    const mapaInflacion = new Map(
+        serieInflacion.datos.map(dato => [dato.fecha, dato.valor])
+    );
+
+    const mapaTasa = new Map(
+        serieTasaReferencia.datos.map(dato => [dato.fecha, dato.valor])
+    );
+
+    const fechas = Array.from(
+        new Set([
+            ...serieInflacion.datos.map(dato => dato.fecha),
+            ...serieTasaReferencia.datos.map(dato => dato.fecha)
+        ])
+    ).sort();
+
+    const valoresInflacion = fechas.map(fecha =>
+        mapaInflacion.has(fecha) ? mapaInflacion.get(fecha) : null
+    );
+
+    const valoresTasa = fechas.map(fecha =>
+        mapaTasa.has(fecha) ? mapaTasa.get(fecha) : null
+    );
+
+    const contexto = document.getElementById("graficoComparativo");
+
+    new Chart(contexto, {
+        type: "line",
+        data: {
+            labels: fechas,
+            datasets: [
+                {
+                    label: "Inflación 12 meses",
+                    data: valoresInflacion,
+                    tension: 0.25,
+                    pointRadius: 2,
+                    borderWidth: 2
+                },
+                {
+                    label: "Tasa de referencia BCRP",
+                    data: valoresTasa,
+                    tension: 0.25,
+                    pointRadius: 2,
+                    borderWidth: 2
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    display: true
+                },
+                tooltip: {
+                    mode: "index",
+                    intersect: false
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        maxTicksLimit: 12
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: "%"
+                    }
+                }
+            }
+        }
+    });
+}
 
 
 async function cargarDashboard() {
@@ -146,11 +223,12 @@ async function cargarDashboard() {
         const data = await respuesta.json();
 
         mostrarEncabezado(data);
-mostrarTarjetas(data);
-mostrarGraficos(data);
-mostrarConclusiones(data);
-mostrarTabla(data);
-
+        mostrarTarjetas(data);
+        mostrarGraficos(data);
+        crearGraficoComparativo(data);
+        mostrarConclusiones(data);
+        mostrarTabla(data);
+        
         console.log("Dashboard cargado correctamente", data);
 
     } catch (error) {
